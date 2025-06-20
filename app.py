@@ -8,7 +8,7 @@ app = Flask(__name__)
 # In-memory storage for users
 users_db = {}
 
-# Helper function to validate user data
+# function to validate user data
 def validate_user_data(data):
     """Validate that required fields are present and valid"""
     if not isinstance(data, dict):
